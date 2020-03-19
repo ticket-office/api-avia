@@ -31,7 +31,7 @@ https://api.radiustravel.uz/avia/v1/orders/update?id=2&token=klmnPYz52MUJPH1ZsPX
     "execution_time":8.029,
     "data":{
         "order":{
-            "id":2,
+            "id":"A-A1253619921-1272",
             "created":"2020-03-17 18:14",
             "status":"ticketed", // обновлен текущий статус заказа
             "auto_cancellation":"2020-03-24 18:04",
