@@ -30,7 +30,6 @@
 14. **gender** - *array*, обязательный. Пол пассажиров. Допустимые значения указаны в [справочнике](guide.md).
 15. **citizenship** - *array*, обязательный. Гражданство пассажиров, код страны по стандарту ISO 3166-1 alpha-2.
 16. **phone** - *array*, обязательный. Номера телефонов пассажиров, в формате +998XXXXXXXX.
-17. **email** - *array*, опциональный. Email пассажиров.
 18. **bonusCard** - *array*, опциональный. Номера бонусных карт пассажиров.
 
 Пример запроса:
@@ -53,7 +52,6 @@ $request = [
     'gender' => ['M', 'F'],
     'citizenship' => ['UZ', 'RU'],
     'phone' => ['+998565004522', '+998565004522'],
-    'email' => ['timofey@example.com', 'alla@example.com'],
     'bonusCard' => ['', ''],
 ];
 ```
@@ -94,7 +92,6 @@ $request = [
                     "first_name":"Tymofii", // имя
                     "middle_name":null, // отчество
                     "last_name":"Salmin", // фамилия
-                    "email":"salmin@salmin.com", // email
                     "phone":"+380730247742", // номер телефона
                     "gender":"M", // пол
                     "birthdate":"1977-01-06", // дата рождения
@@ -112,7 +109,6 @@ $request = [
                     "first_name":"Alla",
                     "middle_name":null,
                     "last_name":"Petrova",
-                    "email":"salmin@salmin.com",
                     "phone":"+380730247742",
                     "gender":"F",
                     "birthdate":"1983-10-12",
