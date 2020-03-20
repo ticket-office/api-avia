@@ -18,5 +18,3 @@ API поиска авиабилетов‎ Radius Travel
 * [Создание PDF маршрутной квитанции](ticket-pdf.md)
 * [Автокомплит пунктов назначения](autocomplit.md)
 * [Справочник](guide.md)
-
-2020 © OOO Radius Travel
