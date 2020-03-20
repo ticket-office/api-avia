@@ -16,7 +16,7 @@
 Пример запроса:
 
 ```php
-https://api.radiustravel.uz/avia/v1/orders/update?id=A-A1253619921-1272&token=klmnPYz52MUJPH1ZsPXw
+https://test.radiustravel.uz/avia/v1/orders/update?id=A-A1253619921-1272&token=klmnPYz52MUJPH1ZsPXw
 ```
 
 Пример ответа:
