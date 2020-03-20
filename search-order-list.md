@@ -16,7 +16,7 @@
 Пример запроса:
 
 ```php
-https://api.radiustravel.uz/avia/v1/orders?limit=10&token=klmnPYz52MUJPH1ZsPXw
+https://test.radiustravel.uz/avia/v1/orders?limit=10&token=klmnPYz52MUJPH1ZsPXw
 ```
 
 Пример ответа:
@@ -30,7 +30,7 @@ https://api.radiustravel.uz/avia/v1/orders?limit=10&token=klmnPYz52MUJPH1ZsPXw
     "data":{
         "found":10, // количество найденных заказов
         "orders":[ // массив с данными заказов
-            ... // структура и данные элементов, описывающих заказы, идентичны элементу orders при бронировании рекомендации
+            ... // структура и данные элементов, описывающих заказы, идентичны элементу orders при бронировании
         ]
     }
 }

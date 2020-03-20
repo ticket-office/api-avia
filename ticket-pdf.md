@@ -51,7 +51,7 @@ $request = [
     "date":"2020-03-18 18:02",
     "execution_time":4.157,
     "data":{
-        "pdf":"https://api.radiustravel.uz/sources/pdf/e-ticket/e-ticket-318032026e0f0.pdf"
+        "pdf":"https://test.radiustravel.uz/sources/pdf/e-ticket/e-ticket-318032026e0f0.pdf" // ссылка на сгенерированный документ
     }
 }
 ```
