@@ -1,5 +1,5 @@
-Получение номеров билетов и обновление данных заказа
-====================================================
+Получение номеров билетов и обновление заказа
+=============================================
 
 Позволяет получить номера билетов после оплаты. Также позволяет обновить текущий статус заказа, например, в случае, если при оплате был получен статус paid, а выписка произошла в течение следующих 10 минут.
 
@@ -22,7 +22,7 @@ https://test.radiustravel.uz/avia/v1/orders/update?id=A-A1253619921-1272&token=k
 Пример ответа:
 --------------
 
-Структура ответа идентична получаемому при бронировании. Отличие в полях status и ticket_number, значения которых обновлены после оплаты и выписки билетов.
+Структура ответа идентична данным, получаемым при бронировании. Отличие в полях status и ticket_number, значения которых обновлены после оплаты и выписки билетов.
 
 ```php
 {
@@ -34,16 +34,16 @@ https://test.radiustravel.uz/avia/v1/orders/update?id=A-A1253619921-1272&token=k
             "id":"A-A1253619921-1272",
             "created":"2020-03-17 18:14",
             "status":"ticketed", // обновлен текущий статус заказа
-            "auto_cancellation":"2020-03-24 18:04",
+            "auto_cancellation":null,
             "price":{
                 "UZS":{
                     "total":3198484,
                 }
             },
             "client":{
-                "name":"Тимофей",
-                "email":"salmin@salmin.com",
-                "phone":"+380730247742",
+                "name":"Виктор",
+                "email":"example@example.com",
+                "phone":"+998565004522",
                 "bonus_card":null
             },
             "tickets":[
@@ -54,16 +54,15 @@ https://test.radiustravel.uz/avia/v1/orders/update?id=A-A1253619921-1272&token=k
             "passengers":[
                 {
                     "id":283109,
-                    "first_name":"Tymofii",
+                    "first_name":"Viktor",
                     "middle_name":null,
-                    "last_name":"Salmin",
-                    "email":"salmin@salmin.com",
-                    "phone":"+380730247742",
+                    "last_name":"Petrov",
+                    "phone":"+998565004522",
                     "gender":"M",
-                    "birthdate":"1977-01-06",
-                    "citizenship":"UA",
+                    "birthdate":"1983-01-06",
+                    "citizenship":"UZ",
                     "age":"adt",
-                    "key":"SALMIN_TYMOFII_ER56987_06-01-1977",
+                    "key":"VIKTOR_PETROV_ER56987_06-01-1983",
                     "doc_type":"A",
                     "doc_number":"ER56987",
                     "doc_expire":"2021-11-25",
@@ -75,16 +74,15 @@ https://test.radiustravel.uz/avia/v1/orders/update?id=A-A1253619921-1272&token=k
                     "first_name":"Alla",
                     "middle_name":null,
                     "last_name":"Petrova",
-                    "email":"salmin@salmin.com",
-                    "phone":"+380730247742",
+                    "phone":"+998565004522",
                     "gender":"F",
-                    "birthdate":"1983-10-12",
-                    "citizenship":"UA",
+                    "birthdate":"1985-10-12",
+                    "citizenship":"UZ",
                     "age":"adt",
                     "key":"PETROVA_ALLA_AR46182_12-10-1983",
                     "doc_type":"A",
                     "doc_number":"AR46182",
-                    "doc_expire":"2021-11-14",
+                    "doc_expire":"2023-05-14",
                     "bonus_card":null,
                     "ticket_number":"3121018443597", // получен номер билета
                     "ticket_price":1599309
