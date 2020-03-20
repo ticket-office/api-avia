@@ -32,7 +32,7 @@
 Пример запроса:
 
 ```php
-https://test.radiustravel.uz/avia/v1/airports?name=мос&token=test
+https://test.radiustravel.uz/avia/v1/airports?name=мос&token=klmnPYz52MUJPH1ZsPXw
 ```
 
 Пример ответа:
