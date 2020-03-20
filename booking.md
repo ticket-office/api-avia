@@ -37,12 +37,12 @@
 ```php
 $request = [
     'id' => '99563ad490edc64ef6f0ca0800d36187',
-    'clientEmail' => 'salmin@example.com',
+    'clientEmail' => 'example@example.com',
     'clientPhone' => '+998565004522',
-    'clientName' => 'Тимофей',
+    'clientName' => 'Виктор',
     'clientBonusCard' => null,
-    'firstName' => ['Tymofii', 'Alla'],
-    'lastName' => ['Salmin', 'Petrova'],
+    'firstName' => ['Viktor', 'Alla'],
+    'lastName' => ['Petrov', 'Petrova'],
     'middleName' => ['', ''],
     'age' => ['adt', 'adt'],
     'birthdate' => ['1983-01-06', '1985-10-12'],
@@ -76,9 +76,9 @@ $request = [
                 }
             },
             "client":{ // данные клиента (покупателя)
-                "name":"Тимофей", // имя
-                "email":"salmin@salmin.com", // email
-                "phone":"+380730247742", // номер телефона
+                "name":"Виктор", // имя
+                "email":"example@example.com", // email
+                "phone":"+998565004522", // номер телефона
                 "bonus_card":null // номер бонусной карты, в данный момент не используется
             },
             "tickets":[ // международный код бронирования
@@ -89,15 +89,15 @@ $request = [
             "passengers":[ // данные пассажиров
                 {
                     "id":283109, // идентификатор
-                    "first_name":"Tymofii", // имя
+                    "first_name":"Viktor", // имя
                     "middle_name":null, // отчество
-                    "last_name":"Salmin", // фамилия
-                    "phone":"+380730247742", // номер телефона
+                    "last_name":"Petrov", // фамилия
+                    "phone":"+998565004522", // номер телефона
                     "gender":"M", // пол
-                    "birthdate":"1977-01-06", // дата рождения
+                    "birthdate":"1983-01-06", // дата рождения
                     "citizenship":"UA", // гражданство
                     "age":"adt", // возраст, возможные значения указаны в справочнике
-                    "key":"SALMIN_TYMOFII_ER56987_06-01-1977",
+                    "key":"VIKTOR_PETROV_ER56987_06-01-1983",
                     "doc_type":"A", // документ для бронирования, возможные значения указаны в справочнике
                     "doc_number":"ER56987", // номер документа
                     "doc_expire":"2021-11-25", // срок действия документа
@@ -109,15 +109,15 @@ $request = [
                     "first_name":"Alla",
                     "middle_name":null,
                     "last_name":"Petrova",
-                    "phone":"+380730247742",
+                    "phone":"+998565004522",
                     "gender":"F",
-                    "birthdate":"1983-10-12",
+                    "birthdate":"1985-10-12",
                     "citizenship":"UA",
                     "age":"adt",
                     "key":"PETROVA_ALLA_AR46182_12-10-1983",
                     "doc_type":"A",
                     "doc_number":"AR46182",
-                    "doc_expire":"2021-11-14",
+                    "doc_expire":"2023-05-14",
                     "bonus_card":null,
                     "ticket_number":null,
                     "ticket_price":1599309
