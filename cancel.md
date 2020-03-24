@@ -10,7 +10,7 @@
 Запрос
 ------
 
-* Роут - /orders/cancel
+* Роут - /avia/v1/orders/cancel
 * HTTP метод запроса - POST
 
 Параметры запроса:

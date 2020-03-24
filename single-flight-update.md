@@ -6,7 +6,7 @@
 Запрос
 ------
 
-* Роут - /flights/update
+* Роут - /avia/v1/flights/update
 * HTTP метод запроса - GET
 
 Параметры запроса:

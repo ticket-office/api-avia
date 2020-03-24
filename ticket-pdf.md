@@ -6,7 +6,7 @@
 Запрос
 ------
 
-* Роут - /orders/pdf/ticket
+* Роут - /avia/v1/orders/pdf/ticket
 * HTTP метод запроса - POST
 
 Параметры запроса:
