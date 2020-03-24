@@ -17,7 +17,7 @@
 Пример запроса с ключем аутентификации:
 
 ```php
-https://test.radiustravel.uz/avia/v1/orders?token=mB58RXXx9OnHa4F0jvDC5RJ1lAzjUqt2
+https://test.radiustravel.uz/v1/avia/orders?token=mB58RXXx9OnHa4F0jvDC5RJ1lAzjUqt2
 ```
 
 Ключ действителен в течение 24 часов с момента последнего запроса.
@@ -25,7 +25,7 @@ https://test.radiustravel.uz/avia/v1/orders?token=mB58RXXx9OnHa4F0jvDC5RJ1lAzjUq
 Запрос
 ------
 
-* Роут - /base/v1/get-token
+* Роут - /base/get-token
 * HTTP метод запроса - POST
 
 Параметры запроса:

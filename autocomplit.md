@@ -13,7 +13,7 @@
 Запрос
 ------
 
-* Роут - /avia/v1/airports
+* Роут - /avia/airports
 * HTTP метод запроса - GET
 
 Параметры запроса:
@@ -32,7 +32,7 @@
 Пример запроса:
 
 ```php
-https://test.radiustravel.uz/avia/v1/airports?name=мос&token=klmnPYz52MUJPH1ZsPXw
+https://test.radiustravel.uz/v1/avia/airports?name=мос&token=klmnPYz52MUJPH1ZsPXw
 ```
 
 Пример ответа:

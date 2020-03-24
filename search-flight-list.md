@@ -11,7 +11,7 @@
 Запрос
 ------
 
-* Роут - /avia/v1/flights
+* Роут - /avia/flights
 * HTTP метод запроса - GET
 
 Параметры запроса:
@@ -30,7 +30,7 @@
 Пример запроса по маршруту Ташкент-Москва-Ташкент для 2 взрослых пассажиров:
 
 ```php
-    https://test.radiustravel.uz/avia/v1/flights?from[0]=TAS&to[0]=MOW&date[0]=2020-10-12&from[1]=MOW&to[1]=TAS&date[1]=2020-11-05&adt=2&class=A&limit=50&currency=usd&token=klmnPYz52MUJPH1ZsPXw
+    https://test.radiustravel.uz/v1/avia/flights?from[0]=TAS&to[0]=MOW&date[0]=2020-10-12&from[1]=MOW&to[1]=TAS&date[1]=2020-11-05&adt=2&class=A&limit=50&currency=usd&token=klmnPYz52MUJPH1ZsPXw
 ```
 
 Пример ответа:

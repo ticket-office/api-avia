@@ -6,7 +6,7 @@
 Запрос
 ------
 
-* Роут - /avia/v1/flights/update
+* Роут - /avia/flights/update
 * HTTP метод запроса - GET
 
 Параметры запроса:
@@ -17,7 +17,7 @@
 Пример запроса:
 
 ```php
-   https://test.radiustravel.uz/avia/v1/flights/update?id=99563ad490edc64ef6f0ca0800d36187&token=klmnPYz52MUJPH1ZsPXw
+   https://test.radiustravel.uz/v1/avia/flights/update?id=99563ad490edc64ef6f0ca0800d36187&token=klmnPYz52MUJPH1ZsPXw
 ```
 
 Пример ответа:

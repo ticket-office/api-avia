@@ -4,7 +4,7 @@
 Запрос
 ------
 
-* Роут - /avia/v1/orders/payment
+* Роут - /avia/orders/payment
 * HTTP метод запроса - POST
 
 Параметры запроса:

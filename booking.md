@@ -9,7 +9,7 @@
 Запрос
 ------
 
-* Роут - /avia/v1/orders/booking
+* Роут - /avia/orders/booking
 * HTTP метод запроса - POST
 
 Параметры запроса:
