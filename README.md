@@ -7,7 +7,7 @@ API поиска авиабилетов‎ Radius Travel
 -------
 
 * [Общая информация](general-info.md)
-* [Авторизация](authorization.md)
+* [Аутентификация](authentication.md)
 * [Получение списка рекомендаций](search-flight-list.md)
 * [Обновление рекомендации и запрос условий тарифа](single-flight-update.md)
 * [Бронирование](booking.md)
