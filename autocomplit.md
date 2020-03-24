@@ -90,3 +90,5 @@ https://test.radiustravel.uz/avia/v1/airports?name=мос&token=klmnPYz52MUJPH1Z
     }
 }
 ```
+
+В случае, если по запросу не будет найдено ни одного варианта, сервер вернет ошибку с кодом 4 (Not Found).
